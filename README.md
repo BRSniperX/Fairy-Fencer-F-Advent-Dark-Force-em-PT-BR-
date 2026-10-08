@@ -1,5 +1,19 @@
 <img width="1672" height="941" alt="1-steam" src="https://github.com/user-attachments/assets/1914139e-af0d-410d-a8d3-d9fb9ff36247" />
-# Fairy Fencer F: Advent Dark Force — Tradução PT-BR v1.0
+# Fairy Fencer F: Advent Dark Force — Tradução PT-BR v1.1
+
+## Novidades da v1.1
+
+- **Corrigido o travamento ao subir de nível.** Na v1.0 o jogo fechava com erro (ou ficava em tela preta) na
+  tela de status da subida de nível, a partir da primeira (Fang, nível 1 → 2). O defeito estava na animação
+  `SUBIU DE NÍVEL!` (um campo do arquivo de recortes da textura foi sobrescrito); agora ela aparece normalmente.
+- Depois da correção, todos os 1.409 arquivos que o patch altera foram conferidos um a um contra o original
+  (estrutura de texturas, animações, tabelas e roteiros). Nenhum outro defeito do tipo.
+
+**Já tem a v1.0?** Basta copiar `jogo\ENGame.bra` do pacote novo por cima do da pasta do jogo — é o único
+arquivo que mudou. Os saves não são afetados.
+
+---
+
 
 Tradução para português do Brasil de **Fairy Fencer F: Advent Dark Force** (PC / Steam).
 
@@ -112,4 +126,3 @@ Encontrou algo? Abra uma issue com um print e a tela ou o lugar onde apareceu.
 *Fairy Fencer F: Advent Dark Force* © IDEA FACTORY / COMPILE HEART. Todos os direitos
 reservados. Projeto de fã, gratuito e sem fins lucrativos, sem vínculo com a Idea Factory, a
 Compile Heart ou a Idea Factory International.
-
